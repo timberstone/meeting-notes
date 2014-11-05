@@ -1,14 +1,12 @@
 # Site settings
-title: Your awesome title
-email: your-email@domain.com
+title: Meeting Notes for the Kansas City Brigade
+email: pbarham@codeforamerica.org
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+    Kansas City Brigade for Code for Amarica Meeting notes
 baseurl: "/meeting-notes" # the subpath of your site, e.g. /blog/
 url: "http://codeforkansascity.github.io/meeting-notes" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  jekyll
+twitter_username: codeforkc
+github_username:  codeforkansascity
 
 # Build settings
 markdown: kramdown
