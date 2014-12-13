@@ -5,91 +5,83 @@ date:   2014-11-04 00:45:48
 categories: github
 ---
 
-In this exercises you will add your name to a website hosted on GitHub, using only your browser.  The current list is at http://codeforkc.org/coders.html
+In this exercise, you will add your name to a website hosted on GitHub, using only your browser.  The current list is at http://codeforkc.org/coders.html
 
 This workflow is used by many open source projects to allow multiple people to contribute to one project.
 
 
 
 # Login to your github.com account
-If you do already have a GitHub account you will need to create one at http://github.com
+If you don't already have a GitHub account you will need to create one at http://github.com
 
 
 
 
 # Fork the KC Brigade Website
 
-When every you fork a repository you will do it from the repositories page.
+When you are editing a page, always work in a repository forked to your account. Whenever you fork a repository you will do it from the repositories page.
 
-Goto the KC Brigade Website’s repositiory page by browsing to https://github.com/luminopolis/codeforkc.org
+1. Go to the KC Brigade Website’s repository page by browsing to https://github.com/luminopolis/codeforkc.org
 
-Click the Fork Button in the upper right hand corner of the page.  If you are a member or more than one organization, you will be asked where to fork it to.  
+2. Click the Fork Button in the upper right hand corner of the page.  If you are a member of more than one organization, you will be asked where to fork it to.  
 
-There may be a small delay as it forks the repository.
+   There may be a small delay as it forks the repository.
+   When the page refreshes you should be at your fork of the repository.
+   
+3. Take a look around your copy of the repository.
 
-When the page refreshes you should be at your fork of the repository.
+# View your fork in a browser
 
-Take a look around your copy of the repository.
+codeforkc.org uses GitHub Pages to host its site.  When you forked the code over to your account, that setup came with it.  
 
-# View your fork on a browser
+To view your version, just go to http://username.github.io/codeforkc.org, replacing username with your GitHub login.
 
-codeforkc.org uses GitHub Pages to host its site.  When you forked the code over to your account that setup came with it.  
-
-To view your version, just goto http://username.github.io/codeforkc.org replacing username with your GitHub login.
-
-If you are intrested on hosting pages on GitHub goto https://pages.github.com/
+If you are interested in hosting pages on GitHub go to https://pages.github.com/.
 
 # Add your name to the list of coders
 
-To see the current page goto http://username.github.io/codeforkc.org/coders.html.
+To see the current page go to http://username.github.io/codeforkc.org/coders.html.
 
-Now to add your name to coders.html.  
+To add your name to coders.html:  
 
-Go to your fork of the site if you are not already there.
+1. Go to your fork of the site if you are not already there.
 
-https://github.com/username/codeforkc.org
+   https://github.com/username/codeforkc.org
 
-Find coders.html in the list of files and click on coders.html
+2. Find coders.html in the list of files and click coders.html. The code screen appears.
 
-You will be taken the screen that show the code.
+3. Click the pencil just above the upper right of the code. The edit screen appears.
 
-Click the pencil just above the upper right of the code.
+4. Add a line below the last ending `</li>` tag and type a new beginning `<li>` tag. The ending tag appears automatically.
 
-You are now in the edit screen
+5. Type your name between the list tags.  
 
-Add a line below the 
+   ```<li>Your Name</li>```
 
-<li>your name here</li>
+6. To see the changes, click the Preview Changes tab at the top of the edit box.
 
-and put your name between the list tags
+7. If you need to fix something, click the Edit File tab at the top of the edit box, and make the change.
 
-<li>Bob Jones</li>
+#Commit your changes
+1. Commit your changes so you can see them in your browser by filling out the Commit Changes section of the page below the Edit box.
 
-To see the changes click on the Preview Changes button
+2. Replace Update coders.html with Added your name to coders.html
 
-If you need to fix something, just click Edit File and make the change
+3. Then press the Commit Changes button
 
-Commit your changes
-Commit your changes so you can see them in your browser by filling out the Commit Changes section of the page after the Edit box.
-
-Replace Update coders.html with Added your name to coders.html
-
-Then press the Commit Changes button
-
-To see your name on the coders.html page browse to http://username.github.io/codeforkc.org/coders.html
+4. To see your name on the coders.html page browse to http://username.github.io/codeforkc.org/coders.html
 
 # Issue a Pull Request
 
-A pull request will ask the owners of originating repository to review and merge your changes into the repository, in this case http://codeforkc.org
+A pull request asks the owners of originating repository to review and merge your changes into the repository, in this case http://codeforkc.org
 
-Navigate back to where you can see the list of files in the reporitory this should be at https://github.com/username/codeforkc.org 
+1. Navigate back to the list of files in the repository. This should be at https://github.com/username/codeforkc.org. 
 
-Just left, above the list of files is a pull request link, click it.
+2. Click the green button above the list of files to the left.  This is a pull request link. The Create Pull Request page appears.
 
-Click the Create Pull Request button and enter a title and description.  An example title for this would be “Added Your Name to the coders list.”
+3. Enter a title and description.  An example title for this would be “Added Your Name to the coders list.” There is no need to fill in the description.
 
-There is no reason to fill in the description.
-
-Press Create Pull Request.
+4.  Click the Create Pull Request button.
+5.  If you are at a meeting, inform someone of the pull request.
 
 
