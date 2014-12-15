@@ -21,7 +21,7 @@ If you don't already have a GitHub account you will need to create one at http:/
 
 When you are editing a page, always work in a repository forked to your account. Whenever you fork a repository you will do it from the repositories page.
 
-1. Go to the KC Brigade Notes repository page by browsing to http://codeforkansascity.github.io/meeting-notes/coders.html
+1. Go to the KC Brigade Notes repository page by browsing to http://codeforkansascity.github.io/meeting-notes
 
 2. Click the Fork Button in the upper right hand corner of the page.  If you are a member of more than one organization, you will be asked where to fork it to.  
 
@@ -34,7 +34,7 @@ When you are editing a page, always work in a repository forked to your account.
 
 codeforkc.org uses GitHub Pages to host its site.  When you forked the code over to your account, that setup came with it.  
 
-To view your version, just go to http://username.github.io/codeforkc.org, replacing username with your GitHub login.
+To view your version, just go to http://username.github.io/meeting-notes/coders.html, replacing username with your GitHub login.
 
 NOTE: It may take up to 10 muniutes for GitHub to setup the site.
 
